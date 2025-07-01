@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .card{
+        display: flex; 
+        gap: 15px;
+        width: 100%;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        position: relative;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    .left{
+        position: relative;
+        display: inline-block;
+    }
+    .img img{
+        border-radius: 05px;
+    }
+    .img{
+    position: relative;
+    }
+    .duration{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        padding: 5px;
+        background-color: black;
+        border-radius: 10px;
+    }
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.other{
+    display: flex;
+     gap: 5px;
+}
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+</style>
+<body>
+<button class="btn">Generate</button>
+    <div class="container">
+
+    <!-- <div class="card">
+        <div class="left">
+            <div class="img"> <img src="" alt=""></div>
+            <div class="duration"></div>
+        </div>
+
+        <div class="right">
+            <div class="title"></div>
+
+            <div class="other">
+                <div class="views"></div>
+                <div></div>
+                <div class="time-ago"></div>
+            </div>
+            <div class="chname"></div>
+        </div>
+    </div> -->
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
