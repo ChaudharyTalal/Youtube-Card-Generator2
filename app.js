@@ -55,7 +55,7 @@ const createCard = (titleText, chNameText, viewsCount, timeAgoValue, durationTex
         </div>
     </div>
     `
-document.querySelector(".container").insertAdjacentHTML("beforeend",html)
+document.querySelector(".container").insertAdjacentHTML("afterbegin",html)
 };
 
 createCard("Installing VS Code", "Code with Harry", 9123445, 21, "33:30", "https://i.ytimg.com/vi/_8o_BiLAgQM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAxYnCeWYLiONJo8FUDQcHYJkjkWA");
